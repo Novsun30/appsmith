@@ -1,0 +1,66 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 30,
+    "widgetName": "MenuButton1",
+    "displayName": "Menu button",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 26,
+    "bottomRow": 30,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 26,
+    "animateLoading": true,
+    "parentColumnSpace": 19.296875,
+    "leftColumn": 10,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "yhwu9qxvg0",
+    "isDeprecated": false,
+    "rightColumn": 26,
+    "menuVariant": "PRIMARY",
+    "widgetId": "d4sxktiyws",
+    "menuItems": {
+        "menuItem1": {
+            "widgetId": "",
+            "index": 0,
+            "label": "First Menu Item",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem3": {
+            "widgetId": "",
+            "index": 2,
+            "label": "Third Menu Item",
+            "id": "menuItem3",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "widgetId": "",
+            "index": 1,
+            "label": "Second Menu Item",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": "Open Menu",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 26,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 10,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "placement": "CENTER"
+}
