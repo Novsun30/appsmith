@@ -38,6 +38,7 @@
     "parentColumnSpace": 6.923828125,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
+    "labelTextColor": "#ffffff",
     "key": "w4k82qwyj2",
     "labelTextSize": "0.875rem",
     "defaultDate": "{{userTable.selectedRow.dob}}",

@@ -4,7 +4,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 25,
+    "topRow": 24,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -28,13 +28,17 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "variant": "VARIANT2",
+    "defaultSelectedRowIndex": "0",
+    "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
+    "fontStyle": "",
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#ffffff",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -65,8 +69,8 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1701676093147,
-    "originalBottomRow": 78,
+    "columnUpdatedAt": 1701852730603,
+    "originalBottomRow": 72,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
     "widgetName": "userTable",
@@ -88,7 +92,7 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 78,
+    "bottomRow": 72,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -116,6 +120,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "image",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -126,6 +132,7 @@
             "sticky": "",
             "originalId": "image",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "country": {
@@ -147,6 +154,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "country",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -157,6 +166,7 @@
             "sticky": "",
             "originalId": "country",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "gender": {
@@ -178,6 +188,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "gender",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -188,6 +200,7 @@
             "sticky": "",
             "originalId": "gender",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "updated_at": {
@@ -209,6 +222,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "updated_at",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -219,6 +234,7 @@
             "sticky": "",
             "originalId": "updated_at",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "phone": {
@@ -240,6 +256,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "phone",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -250,6 +268,7 @@
             "sticky": "",
             "originalId": "phone",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "dob": {
@@ -271,6 +290,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "dob",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "date",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -281,6 +302,7 @@
             "sticky": "",
             "originalId": "dob",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "latitude": {
@@ -302,6 +324,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "latitude",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -312,6 +336,7 @@
             "sticky": "",
             "originalId": "latitude",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "name": {
@@ -333,6 +358,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "name",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -343,6 +370,7 @@
             "sticky": "",
             "originalId": "name",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "created_at": {
@@ -364,6 +392,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "created_at",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -374,6 +404,7 @@
             "sticky": "",
             "originalId": "created_at",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "id": {
@@ -395,6 +426,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "id",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -405,6 +438,7 @@
             "sticky": "",
             "originalId": "id",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "email": {
@@ -426,6 +460,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "email",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -436,6 +472,7 @@
             "sticky": "",
             "originalId": "email",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         },
         "longitude": {
@@ -457,6 +494,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "longitude",
+            "fontStyle": "",
+            "textColor": "#ffffff",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -467,6 +506,7 @@
             "sticky": "",
             "originalId": "longitude",
             "currencyCode": "USD",
+            "cellBackground": "#3f3f46",
             "verticalAlignment": "CENTER"
         }
     },
@@ -488,8 +528,9 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 25,
+    "originalTopRow": 24,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "#3f3f46",
     "verticalAlignment": "CENTER"
 }
