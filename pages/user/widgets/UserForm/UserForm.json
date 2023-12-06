@@ -17,7 +17,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 37,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -68,7 +68,7 @@
     "key": "mwpg31unz0",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 58,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "abm9hk3v64",
     "minWidth": 450,
