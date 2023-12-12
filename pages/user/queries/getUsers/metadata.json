@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"users\" ORDER BY public.users.id LIMIT 20;",
+      "body": "SELECT * FROM public.\"users\" ORDER BY public.users.id LIMIT 10;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -35,8 +35,7 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T07:30:50Z"
+    "userPermissions": []
   },
   "id": "user_getUsers",
   "deleted": false,
