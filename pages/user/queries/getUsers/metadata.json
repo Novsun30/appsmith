@@ -35,7 +35,8 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-04T07:30:50Z"
   },
   "id": "user_getUsers",
   "deleted": false,
