@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,6 +29,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "user_getUsers",
+              "name": "getUsers",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "user_JSObject1.myFun1",
               "name": "JSObject1.myFun1",
               "collectionId": "user_JSObject1",
@@ -38,14 +48,6 @@
               "jsonPathKeys": [
                 "function () {\n  console.log('123');\n}"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "user_getUsers",
-              "name": "getUsers",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
