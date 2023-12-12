@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "resetTimeZone",
+    "fullyQualifiedName": "Time.resetTimeZone",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "user",
-    "collectionId": "user_JSObject1",
+    "pageId": "Test",
+    "collectionId": "Test_Time",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,8 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
-    "clientSideExecution": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -32,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T02:51:44Z"
+    "createdAt": "2023-12-11T03:56:07Z"
   },
-  "id": "user_JSObject1.myFun1",
+  "id": "Test_Time.resetTimeZone",
   "deleted": false,
-  "gitSyncId": "656d53b3047b8824e64fa83b_656fe1c0d5770761d6bce4d4"
+  "gitSyncId": "656d53b3047b8824e64fa83b_65768857928c1e3ee2de4359"
 }

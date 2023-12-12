@@ -44,7 +44,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-04T08:26:47Z"
   },
   "id": "user_updateUsers",
   "deleted": false,

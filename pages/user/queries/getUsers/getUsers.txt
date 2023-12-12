@@ -1,1 +1,1 @@
-SELECT * FROM public."users" ORDER BY public.users.id LIMIT 10;
+SELECT * FROM public."users" ORDER BY public.users.id LIMIT 20;
