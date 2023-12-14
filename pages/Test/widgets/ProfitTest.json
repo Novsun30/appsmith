@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 56,
+    "topRow": 16,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -19,7 +19,7 @@
         {"key": "primaryColumns.time.textColor"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 22,
+    "leftColumn": 41,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -63,7 +63,7 @@
     "originalBottomRow": 85,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 56,
-    "widgetName": "TestTable",
+    "widgetName": "ProfitTest",
     "defaultPageSize": 0,
     "columnOrder": [
         "name",
@@ -75,7 +75,7 @@
         {"key": "primaryColumns.time.textColor"}
     ],
     "displayName": "Table",
-    "bottomRow": 73,
+    "bottomRow": 36,
     "columnWidthMap": {"name": 149},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -85,7 +85,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "name": {
-            "computedValue": "{{TestTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+            "computedValue": "{{ProfitTest.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "name",
@@ -113,11 +113,11 @@
             "sticky": "",
             "originalId": "name",
             "currencyCode": "USD",
-            "cellBackground": "{{TestTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.name > 0 ? \"#BFB\": currentRow.name == 0?\"#FFF\": \"#FBB\" ))}}",
+            "cellBackground": "{{ProfitTest.processedTableData.map((currentRow, currentIndex) => ( currentRow.name > 0 ? \"#BFB\": currentRow.name == 0?\"#FFF\": \"#FBB\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "time": {
-            "computedValue": "{{TestTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"time\"]))}}",
+            "computedValue": "{{ProfitTest.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"time\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "time",
@@ -135,7 +135,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "time",
-            "textColor": "{{TestTable.processedTableData.map((currentRow, currentIndex) => ( (currentRow.time) > 0 ? \"#0A0\": currentRow.time == 0?\"#000\": \"#F00\" ))}}",
+            "textColor": "{{ProfitTest.processedTableData.map((currentRow, currentIndex) => ( (currentRow.time) > 0 ? \"#0A0\": currentRow.time == 0?\"#000\": \"#F00\" ))}}",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -152,7 +152,7 @@
     "key": "pcbrvpfwpn",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 62,
     "textSize": "1rem",
     "widgetId": "xwlhqlinb0",
     "minWidth": 450,

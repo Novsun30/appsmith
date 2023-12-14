@@ -1,22 +1,23 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 75,
+    "mobileBottomRow": 89,
     "widgetName": "Chart1",
     "allowScroll": false,
-    "displayName": "Chart",
+    "dynamicPropertyPathList": [],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
+    "displayName": "Chart",
+    "topRow": 103,
     "searchTags": [
         "graph",
         "visuals",
         "visualisations"
     ],
-    "topRow": 21,
-    "bottomRow": 53,
+    "bottomRow": 138,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 25,
-    "chartData": {"pkt1kopyuj": {
+    "mobileRightColumn": 30,
+    "chartData": {"3ohr23fmnf": {
         "data": [
             {
                 "x": "Product1",
@@ -35,7 +36,8 @@
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 19.296875,
+    "parentColumnSpace": 19.328125,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
@@ -43,7 +45,7 @@
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "leftColumn": 7,
+    "leftColumn": 35,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -94,25 +96,27 @@
     "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
     "flexVerticalAlignment": "start",
     "showDataPointLabel": false,
-    "key": "nuo6p3d1t8",
+    "key": "ek6x3a273l",
     "isDeprecated": false,
-    "rightColumn": 22,
-    "widgetId": "tv177bh8i0",
+    "rightColumn": 59,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "widgetId": "hnhewh8fqo",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
-    "labelOrientation": "auto",
     "tags": ["Display"],
-    "renderMode": "CANVAS",
+    "labelOrientation": "auto",
     "isLoading": false,
-    "mobileTopRow": 43,
+    "renderMode": "CANVAS",
+    "mobileTopRow": 57,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
+    "originalTopRow": 55,
     "chartName": "Sales Report",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
+    "mobileLeftColumn": 6,
     "xAxisName": "Product Line",
-    "chartType": "COLUMN_CHART"
+    "originalBottomRow": 87,
+    "chartType": "AREA_CHART"
 }

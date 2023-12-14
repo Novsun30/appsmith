@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 17,
+    "topRow": 3,
     "isSortable": false,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -19,7 +19,7 @@
         {"key": "borderRadius"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 25,
+    "leftColumn": 32,
     "delimiter": ",",
     "variant": "VARIANT2",
     "defaultSelectedRowIndex": "-1",
@@ -63,7 +63,7 @@
     "primaryColumnId": "activeUser",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 50,
-    "widgetName": "Table1",
+    "widgetName": "Breakdown",
     "defaultPageSize": 0,
     "columnOrder": [
         "activeUser",
@@ -74,7 +74,7 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 26,
+    "bottomRow": 12,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -84,7 +84,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "activeUser": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"activeUser\"]))}}",
+            "computedValue": "{{Breakdown.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"activeUser\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "activeUser",
@@ -115,7 +115,7 @@
             "verticalAlignment": "CENTER"
         },
         "totalOrders": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalOrders\"]))}}",
+            "computedValue": "{{Breakdown.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalOrders\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "totalOrders",
@@ -146,7 +146,7 @@
             "verticalAlignment": "CENTER"
         },
         "turnover": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"turnover\"]))}}",
+            "computedValue": "{{Breakdown.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"turnover\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "turnover",
@@ -177,7 +177,7 @@
             "verticalAlignment": "CENTER"
         },
         "merchantProfit": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"merchantProfit\"]))}}",
+            "computedValue": "{{Breakdown.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"merchantProfit\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "merchantProfit",
@@ -211,7 +211,7 @@
     "key": "agz4kznsxt",
     "canFreezeColumn": false,
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 64,
     "textSize": "1rem",
     "widgetId": "gu9uqov03p",
     "minWidth": 450,
