@@ -11,6 +11,10 @@
     {
       "id": "Test",
       "isDefault": false
+    },
+    {
+      "id": "Mock",
+      "isDefault": false
     }
   ],
   "viewMode": false,

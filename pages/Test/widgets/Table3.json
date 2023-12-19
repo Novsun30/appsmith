@@ -125,7 +125,8 @@
         "profit": 117,
         "event_type_id": 153,
         "market_name": 166,
-        "IsExchange": 116
+        "IsExchange": 116,
+        "status": 100
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -425,7 +426,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": false,
+            "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,

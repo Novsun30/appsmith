@@ -41,7 +41,7 @@
     "parentColumnSpace": 11.640625,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "labelTextColor": "#f4f4f5",
+    "labelTextColor": "#231f20",
     "sourceData": "{{Time.createTimeZone()}}",
     "key": "4ht0k5v6cu",
     "labelTextSize": "0.875rem",

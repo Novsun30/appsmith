@@ -111,7 +111,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "outcome_name": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"outcome_name\"][\"en\"]))}}",
+            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow.outcome_name?.en))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "outcome_name",

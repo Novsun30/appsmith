@@ -220,7 +220,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 297,
+    "originalBottomRow": 181,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -258,7 +258,7 @@
                         "boxShadow": "none",
                         "isRequired": false,
                         "isCustomField": false,
-                        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.outcome_name.hi))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
+                        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.outcome_name?.en))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
                         "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
                         "dataType": "string",
                         "accessor": "hi",
@@ -508,7 +508,6 @@
                 "iconAlign": "left",
                 "position": 7,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "unmatched_order_quantity": {
@@ -782,7 +781,6 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "place_order_price": {
@@ -980,7 +978,6 @@
                 "iconAlign": "left",
                 "position": 18,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "profit": {
@@ -1043,7 +1040,6 @@
             },
             "place_order_id": "c51728",
             "matched_order_quantity": 900,
-            "line": null,
             "unmatched_order_quantity": 0,
             "matched_order_dt": "2023-12-14T01:37:50Z",
             "product_name": {
@@ -1056,7 +1052,6 @@
                 "pk": "Hyderabad",
                 "zh": "Hyderabad"
             },
-            "void_reason": null,
             "place_order_price": 1.45,
             "settle_price": 1.45,
             "layback": "b",
@@ -1065,7 +1060,6 @@
             "place_order_dt": "2023-12-14T01:37:50Z",
             "matched_order_price": 1.45,
             "cancel_order_quantity": 0,
-            "boost": null,
             "profit": 405,
             "settle_remark": ""
         },

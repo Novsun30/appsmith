@@ -40,7 +40,7 @@
     "parentColumnSpace": 19.328125,
     "dynamicTriggerPathList": [{"key": "onDateSelected"}],
     "labelPosition": "Top",
-    "labelTextColor": "#f4f4f5",
+    "labelTextColor": "#18181b",
     "key": "3n2g3g07mv",
     "labelTextSize": "0.875rem",
     "defaultDate": "{{new Date()}}",
