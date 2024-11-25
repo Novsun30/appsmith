@@ -47,6 +47,10 @@
     {
       "id": "Mock",
       "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
