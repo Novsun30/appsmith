@@ -6,7 +6,8 @@ export default {
 		//	this.myVar1 = [1,2,3]
 	},
 	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
+		if(appsmith.URL.queryParams.token === "thisistoken"){
+			navigateTo("Mock", {}, "SAME_WINDOW")
+		}
 	}
 }
