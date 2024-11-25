@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "656d53b3047b8824e64fa83b_657a83eccaad3a4e2893383e",
+  "id": "Mock_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Mock",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "data1",
@@ -19,10 +19,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Mock_JSObject1",
-  "deleted": false,
-  "gitSyncId": "656d53b3047b8824e64fa83b_657a83eccaad3a4e2893383e"
+    ]
+  }
 }

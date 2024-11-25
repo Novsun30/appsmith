@@ -1,61 +1,79 @@
 {
-    "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
-    "topRow": 1,
-    "labelWidth": 5,
-    "type": "DATE_PICKER_WIDGET2",
-    "animateLoading": true,
-    "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultDate"}
-    ],
-    "labelStyle": "BOLD",
-    "isDisabled": false,
-    "onDateSelected": "",
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "datePickerType": "DATE_PICKER",
-    "version": 2,
-    "tags": ["Inputs"],
-    "isLoading": false,
-    "timePrecision": "minute",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "closeOnSelection": true,
-    "mobileBottomRow": 19,
-    "widgetName": "FromDateInput",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "defaultDate"}],
-    "displayName": "DatePicker",
-    "searchTags": ["calendar"],
-    "bottomRow": 5,
-    "shortcuts": false,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 27,
-    "parentColumnSpace": 19.328125,
-    "dynamicTriggerPathList": [{"key": "onDateSelected"}],
-    "labelPosition": "Top",
-    "labelTextColor": "#3f3f46",
-    "key": "3n2g3g07mv",
-    "labelTextSize": "0.875rem",
-    "defaultDate": "{{moment().startOf(\"day\")}}",
-    "isDeprecated": false,
-    "rightColumn": 11,
-    "widgetId": "n809m9tjn0",
-    "minWidth": 450,
-    "label": "From",
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 12,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 7,
-    "maxDynamicHeight": 9000,
-    "firstDayOfWeek": "0",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{moment().startOf(\"day\")}}",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDateSelected"
+    }
+  ],
+  "firstDayOfWeek": "0",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "3n2g3g07mv",
+  "label": "From",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#3f3f46",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 12,
+  "onDateSelected": "",
+  "parentColumnSpace": 19.328125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 11,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "timePrecision": "minute",
+  "topRow": 1,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "n809m9tjn0",
+  "widgetName": "FromDateInput"
 }
